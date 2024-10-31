@@ -6,8 +6,8 @@
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/media-query-PVANLSHnGn
+- Live Site URL: https://wiidevyousef.github.io/product_preview_card_component_main/
 
 
 
