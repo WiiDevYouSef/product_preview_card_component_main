@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.product_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 320px;
+  border-radius: 8px 0px 0px 8px;
+  height: 480px;
+}
+.product_info {
+  border: 0px solid black;
+  width: 320px;
+  height: 480px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0 8px 8px 0;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+}
+h1 {
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  width: 200px;
+  font-weight: bold;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  line-height: 20px;
+  max-width: 246px;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.current_price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+.old_price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.add_btn {
+  display: flex;
+  align-items: center;
+  border: 0px solid black;
+  border-radius: 8px;
+  width: 240px;
+  height: 50px;
+  background-color: hsl(158, 36%, 37%);
+  padding: 20px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  border: none;
+
+  margin-left: 1rem;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+i {
+  margin-left: 2rem;
+}
+@media (max-width:720px) {
+    .product_container{
+
+        display: flex;
+        margin: 0 auto;
+        
+        flex-direction: column;
+        max-width: 50%;
+       
+        
+        
+    }
+    img{
+        margin-top: 10rem;
+        width: 70vw;
+        border-radius: 10px 10px 0 0;
+        height: 50%;
+    }
+    .product_info{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 0%;
+        margin: 0%;
+        width: 70vw;
+        border-radius: 0 0 10px 10px;
+        padding: 30px;
+        gap: 30px;
+        
+    }
+    h1{
+        width: 280px;
+    }
+}
